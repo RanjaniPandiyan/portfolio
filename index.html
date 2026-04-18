@@ -440,7 +440,12 @@
           </div>
           <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <h3 class="fw-bold text-center text-secondary">Contact Me</h3>
-            <form>
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="5baed163-3f60-473d-b940-a980fbe475f2"
+              />
               <div class="row g-3">
                 <div class="col-md-6">
                   <div class="form-floating">
@@ -448,7 +453,9 @@
                       type="text"
                       class="form-control"
                       id="name"
+                      name="name"
                       placeholder="Your Name"
+                      required
                     />
                     <label for="name">Your Name</label>
                   </div>
@@ -460,6 +467,8 @@
                       class="form-control"
                       id="email"
                       placeholder="Your Email"
+                      name="email"
+                      required
                     />
                     <label for="email">Your Email</label>
                   </div>
@@ -471,6 +480,8 @@
                       class="form-control"
                       id="subject"
                       placeholder="Subject"
+                      name="subject"
+                      required
                     />
                     <label for="subject">Subject</label>
                   </div>
@@ -482,6 +493,8 @@
                       placeholder="Leave a message here"
                       id="message"
                       style="height: 100px"
+                      name="message"
+                      required
                     ></textarea>
                     <label for="message">Message</label>
                   </div>
