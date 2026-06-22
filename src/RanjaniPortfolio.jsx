@@ -602,6 +602,7 @@ export default function Portfolio() {
                 <a
                   key={label}
                   href={url}
+                  target="_blank"
                   style={{
                     color: textMuted,
                     textDecoration: "none",
@@ -2106,6 +2107,7 @@ export default function Portfolio() {
                   <a
                     key={label}
                     href={href}
+                    target="_blank"
                     style={{
                       color: "#666",
                       textDecoration: "none",
