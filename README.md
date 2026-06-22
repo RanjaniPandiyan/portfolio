@@ -1,18 +1,37 @@
-# React + Vite
+Ranjani Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React and Vite to showcase my skills, projects, and experience as a Full-Stack Developer.
 
-Currently, two official plugins are available:
+Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://ranjanipandiyan.github.io/portfolio/
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Responsive design
+Project showcase
+Skills section
+Contact information
+Fast performance with Vite
+Deployed using GitHub Pages
+## Technologies Used
 
-Note: This will impact Vite dev & build performances.
+Frontend
+React
+JavaScript
+Bootstrap
+HTML5
+CSS3
+## Tools
+Git
+GitHub
 
-## Expanding the ESLint configuration
+## Author
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ranjani Pandiyan
+
+GitHub: https://github.com/RanjaniPandiyan
+LinkedIn: https://www.linkedin.com/in/ranjani-pandiyan
+Vite
+GitHub Pages
+Installation
