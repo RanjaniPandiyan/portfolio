@@ -591,7 +591,11 @@ export default function Portfolio() {
             <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
               {[
                 ["GitHub", "https://github.com/RanjaniPandiyan", "#333"],
-                ["LinkedIn", "www.linkedin.com/in/ranjani-pandiyan", "#0077b5"],
+                [
+                  "LinkedIn",
+                  "https://www.linkedin.com/in/ranjani-pandiyan",
+                  "#0077b5",
+                ],
                 ["Email", "mailto:ranjanipandiyan2@gmail.com", "#ea4335"],
               ].map(([label, url, col]) => (
                 <a
@@ -2094,9 +2098,9 @@ export default function Portfolio() {
                 style={{ display: "flex", flexDirection: "column", gap: 10 }}
               >
                 {[
-                  ["GitHub", "https://github.com"],
-                  ["LinkedIn", "https://linkedin.com"],
-                  ["Email", "mailto:ranjani@email.com"],
+                  ["GitHub", "https://github.com/RanjaniPandiyan"],
+                  ["LinkedIn", "https://www.linkedin.com/in/ranjani-pandiyan"],
+                  ["Email", "mailto:ranjanipandiyan2@gmail.com"],
                 ].map(([label, href]) => (
                   <a
                     key={label}
